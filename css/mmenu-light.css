@@ -241,6 +241,7 @@
      overflow: hidden;
      white-space: nowrap;
      text-overflow: ellipsis;
+     color: transparent;
 }
  .mm-spn.mm-spn--navbar.mm-spn--main:after {
      padding-left: 0;

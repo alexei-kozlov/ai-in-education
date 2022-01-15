@@ -1,9 +1,3 @@
-/*
-Template Name: Canna News HTML Template
-Author       : The UX Lab
-Version      : 1.0
-*/
-
 (function ($) {
 
 	"use strict";
@@ -27,10 +21,10 @@ Version      : 1.0
 		}
 	});
 	//Click event to scroll to top
-	$('.scrollToTop').click(function () {
+	$('.scrollToTop').on("click", function () {
 		$('html, body').animate({
 			scrollTop: 0
-		}, 800);
+		}, 100);
 		return false;
 	});
 
@@ -182,7 +176,7 @@ Version      : 1.0
 		]
 	});
 
-	// Block Six slider
+	// Block Six slider ----------------------------------------- (Commented!!!)
 	$('.block-six-active').slick({
 		dots: false,
 		arrows: true,
