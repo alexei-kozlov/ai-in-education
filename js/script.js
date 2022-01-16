@@ -176,7 +176,7 @@
 		]
 	});
 
-	// Block Six slider ----------------------------------------- (Commented!!!)
+	// Block Six slider
 	$('.block-six-active').slick({
 		dots: false,
 		arrows: true,
@@ -191,19 +191,14 @@
 				breakpoint: 992,
 				settings: {
 					slidesToShow: 2,
-					slidesToScroll: 2
+					slidesToScroll: 1
 				}
 			},
 			{
 				breakpoint: 768,
 				settings: {
-					slidesToShow: 2,
-				}
-			},
-			{
-				breakpoint: 575,
-				settings: {
 					slidesToShow: 1,
+					slidesToScroll: 1
 				}
 			}
 		]
