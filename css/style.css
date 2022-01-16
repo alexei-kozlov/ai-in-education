@@ -2739,6 +2739,10 @@ template {
   }
 }
 
+.pr-0 {
+  padding-right: 0;
+}
+
 .pl-10 {
   padding-left: 10px;
 }
@@ -3769,7 +3773,8 @@ label {
 
 .menu-3 li a {
   font-weight: 600;
-  padding: 10px;
+  padding: 10px 0;
+  margin: 0 15px;
   font-size: 20px;
   border-bottom: 5px solid transparent;
 }
@@ -3777,19 +3782,27 @@ label {
 @media (max-width: 991px) {
   .menu-3 li a {
     padding: 20px;
+    margin: 0;
     text-align: left;
+  }
+
+  .menu-3 li a:hover {
+    color: #437FEC;
+    background: #e3eff6;
+    border-bottom: 5px #437FEC solid;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .menu-3 li a {
-    padding: 15px;
+    padding: 15px 0;
+    margin: 0 15px;
   }
 }
 
 .menu-3 li a:hover {
   color: #437FEC;
-  background: #e3eff6;
+  /*background: #e3eff6;*/
   border-bottom: 5px #437FEC solid;
 }
 
@@ -4229,7 +4242,7 @@ label {
   position: absolute;
   left: auto;
   right: 8px;
-  top: -46px;
+  top: -36px;
   transform: translateY(-50%);
   width: 30px;
   height: 30px;
@@ -4248,7 +4261,6 @@ label {
 
 .slick-arrow.fa-chevron-left {
   right: 50px;
-  top: -46px;
   z-index: 99;
 }
 
@@ -4919,7 +4931,7 @@ label {
 }
 
 .logo .logo-icon {
-  width: 260px;
+  width: 180px;
   height: auto;
 }
 
@@ -5502,7 +5514,7 @@ label {
 /*----------------------------------------*/
 .block-widget .block-content h3 {
   font-size: 12px;
-  line-height: 1;
+  line-height: 14px;
 }
 
 .block-widget-list {
@@ -5540,34 +5552,40 @@ label {
 
 .block-meta-date span {
   font-size: 12px;
+  padding-bottom: 10px;
 }
 
-.block-widget-url h4 {
+.block-widget-url span {
   font-size: 14px;
   font-weight: 600;
   position: relative;
   display: inline-block;
+  padding-bottom: 16px;
 }
 
-.block-widget-url h4::before {
-  position: absolute;
+.block-widget-url span::before {
   content: '';
-  bottom: -0.5rem;
-  background: #000000;
+  position: absolute;
   width: 0;
   height: 2px;
+  bottom: .6rem;
+  background: #437FEC;
   -webkit-transition: 0.3s ease-out;
   transition: 0.3s ease-out;
 }
 
-.block-widget-url h4:hover {
-  color: #000000;
+.block-widget-url span:hover {
+  color: #437FEC;
   opacity: .8;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
 }
 
-.block-widget-url h4:hover::before {
+.block-widget-url span:hover::before {
   width: 100%;
   height: 2px;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
 }
 
 /*----------------------------------------*/
@@ -5937,7 +5955,7 @@ label {
 }
 
 .footer-widget .footer-logo .logo-icon {
-  width: 200px;
+  width: 180px;
   height: auto;
 }
 
@@ -6173,7 +6191,6 @@ label {
     padding-top: 12px;
     padding-bottom: 10px;
   }
-
 }
 
 button.close {
@@ -6228,6 +6245,22 @@ button.close {
   width: 1px;
   height: 1px;
   margin: -1px;
+}
+
+.entertainment .block-img {
+  height: 200px;
+}
+.entertainment .block-img img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.entertainment .block-content {
+  flex-grow: 1;
+}
+
+.entertainment .block-content h3 {
+  min-height: 38px;
 }
 
 /*# sourceMappingURL=style.css.map */
