@@ -2560,6 +2560,34 @@ template {
   margin-left: 15px;
 }
 
+.ml-20 {
+  margin-left: 20px;
+}
+
+.ml-25 {
+  margin-left: 25px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mr-15 {
+  margin-right: 15px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.mr-25 {
+  margin-right: 25px;
+}
+
+.mr-35 {
+  margin-right: 35px;
+}
+
 /*-- - Padding -------------------------------------------*/
 .py-20 {
   padding: 20px 0;
@@ -2779,6 +2807,10 @@ template {
 
 .pr-16 {
   padding-right: 16px !important;
+}
+
+.pr-25 {
+  padding-right: 25px;
 }
 
 .pb-0 {
@@ -3005,6 +3037,24 @@ template {
   }
 }
 
+.float-left {
+  float: left !important;
+}
+
+.float-right {
+  float: right !important;
+}
+
+.float-none {
+  float: none !important;
+}
+
+@media screen and (min-width: 768px) {
+  .float-md-left {
+    float: left !important;
+  }
+}
+
 .relative {
   position: relative !important;
 }
@@ -3107,6 +3157,12 @@ template {
 
 @media screen and (min-width: 992px) {
   .w-lg-50 {
+    width: 50% !important;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .w-md-50 {
     width: 50% !important;
   }
 }
@@ -4772,6 +4828,10 @@ label {
   text-align: center;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 @media screen and (min-width: 768px) {
   .text-md-right {
     text-align: right;
@@ -5525,6 +5585,12 @@ label {
 
 .block-widget-list .block-widget-module {
   margin: 20px 0;
+  transition-duration: 0.3s;
+}
+
+.block-widget-list .block-widget-module .announcement-link {
+  width: 100%;
+  height: 100%;
   padding: 20px 15px;
   transition-duration: 0.3s;
 }
@@ -5541,6 +5607,12 @@ label {
   cursor: pointer;
   box-shadow: 3px 3px 6px rgb(0, 0, 0, 0.6), -3px 3px 6px rgb(0, 0, 0, 0.6);
   transition-duration: 0.3s;
+}
+
+.block-widget-list .block-widget-module:hover h3 {
+  color: #437FEC;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
 }
 
 .block-widget .block-img {
@@ -6250,6 +6322,7 @@ button.close {
 .entertainment .block-img {
   height: 200px;
 }
+
 .entertainment .block-img img {
   object-fit: cover;
   height: 100%;
@@ -6262,6 +6335,47 @@ button.close {
 .entertainment .block-content h3 {
   min-height: 38px;
 }
+
+.blog-title {
+  font-size: 22px;
+  line-height: 25px;
+}
+.text-block p,
+.text-block ul,
+.text-block ol {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.text-block ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.text-block ol {
+  list-style-type: decimal;
+  list-style-position: inside;
+  padding: 0;
+  margin: 0;
+}
+
+.text-block li {
+  list-style: inherit;
+  counter-increment: li;
+}
+
+.text-block ol li::marker {
+  content: counter(li) ") ";
+}
+
+.text-link {
+  color: #437FEC;
+}
+
+.text-link:hover {
+  color: #437FEC;
+  text-decoration: underline;
+}
+
 
 /*# sourceMappingURL=style.css.map */
  
