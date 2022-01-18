@@ -6290,6 +6290,11 @@ button.close {
 
 /*-------------Custom-Styles---------------*/
 
+.announcement .block-widget {
+  /*position: sticky;*/
+  /*top: 0;*/
+}
+
 .news .block-module {
   padding: 6px;
 }
@@ -6310,12 +6315,16 @@ button.close {
 }
 
 .block-six-active .single-block.slick-slide {
+  float: initial;
+  height: auto;
+}
+
+.block-six-active .entertainment-link {
   transition-duration: .3s;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  float: initial;
-  height: auto;
+  height: 100%;
 }
 
 .visually-hidden {
@@ -6343,6 +6352,11 @@ button.close {
   min-height: 38px;
 }
 
+.entertainment-link:hover h3 {
+  transition-duration: .3s;
+  color: #437FEC;
+}
+
 .blog-title {
   font-size: 22px;
   line-height: 25px;
@@ -6356,8 +6370,14 @@ button.close {
 }
 
 .text-block ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.text-block ul.list-inside-text {
   list-style-type: disc;
-  list-style-position: inside;
+  padding-left: 20px;
 }
 
 .text-block ol {
@@ -6380,11 +6400,43 @@ button.close {
   color: #437FEC;
 }
 
-.text-link:hover {
+.text-link:hover,
+.text-link:focus {
   color: #437FEC;
   text-decoration: underline;
 }
 
+.text-link:active {
+  color: #9400d3;
+}
+
+blockquote.text-quote {
+  border-left: 3px solid #437FEC;
+  font-style: italic;
+  margin: 25px 0 0 1.5em;
+  padding-left: 1.5em;
+}
+
+blockquote.text-quote:before,
+blockquote.text-quote:after {
+  color: #437FEC;
+  font-size: 3em;
+  line-height: 0.1em;
+  margin-right: 0.2em;
+  vertical-align: -.4em;
+}
+
+blockquote.text-quote:before {
+  content: "\201D";
+}
+
+blockquote.text-quote:after {
+  /*content: "\201C";*/
+}
+
+blockquote > p {
+  display: inline;
+  color: #757575;
+}
 
 /*# sourceMappingURL=style.css.map */
- 

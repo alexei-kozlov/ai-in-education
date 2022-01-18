@@ -1,0 +1,10 @@
+RewriteEngine On
+
+#Redirect to domain.ru
+RewriteCond %{HTTP_HOST}  !^quality-edu.ru$
+RewriteRule ^(.*)$  https://quality-edu.ru/$1 [R=301,L]
+
+#Redirect http to https
+RewriteCond %{HTTP:X-Forwarded-Proto} ^http$
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$  https://%{HTTP_HOST}/$1 [R=301,L]
