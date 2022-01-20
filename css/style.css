@@ -2434,6 +2434,10 @@ template {
   margin-top: 0;
   margin-bottom: 0;
 }
+.my-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
 .mx-auto {
   margin-left: auto;
@@ -4394,15 +4398,15 @@ label {
 }
 
 .slick-dots .slick-active {
-  color: #e05d41;
+  color: #437FEC;
   width: 10px;
   height: 20px;
-  background: #e05d41;
+  background: #437FEC;
   border-radius: 6px;
 }
 
 .slick-dots .slick-active button {
-  border-color: #e05d41;
+  border-color: #437FEC;
 }
 
 /*----------------------------------------*/
@@ -6318,7 +6322,6 @@ button.close {
 }
 
 /*-------------Custom-Styles---------------*/
-
 .news .block-module:hover img {
   transform: none;
 }
@@ -6513,6 +6516,40 @@ blockquote > p {
   .all-announcements .announcements .block-widget .block-img {
     max-width: 100%;
   }
+}
+
+.blog-standard-area {
+  padding-top: 30px;
+}
+
+/*-------------Breadcrumb---------------*/
+ul.breadcrumb {
+  padding: 10px 0;
+  list-style: none;
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 14px;
+}
+
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+ul.breadcrumb li {
+  color: #0275d8;
+  text-decoration: none;
+}
+ul.breadcrumb li.crumb-active {
+  color: #242425;
+}
+
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */
