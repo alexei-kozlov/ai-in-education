@@ -37,6 +37,12 @@
     $(".extra-info,.offcanvas-overly").removeClass("active");
   });
 
+  // Mobile-menu list hide on load page and show after click menu-btn
+  $(".mobile-menu").on("click", function () {
+    $(".menu-3 li").css('display', 'block');
+    return false;
+  });
+
 
   // slider - active
   function mainSlider() {

@@ -3860,7 +3860,7 @@ label {
 
 @media (max-width: 991px) {
   .menu-3 li {
-    display: block;
+    display: none;
   }
 }
 

@@ -1,5 +1,4 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-  <!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
   <url>
     <loc>https://quality-edu.ru/</loc>
     <lastmod>2022-01-20T08:53:10+00:00</lastmod>
@@ -21,6 +20,21 @@
     <priority>0.80</priority>
   </url>
   <url>
+    <loc>https://quality-edu.ru/anonsi/rosiyskiye-pedagogi-podelyatsya-opitom-ispolzovaniya-ii.html</loc>
+    <lastmod>2022-01-20T08:56:49+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://quality-edu.ru/anonsi/vozmozhnosti-vnedreniya-ii-v-obrazovatelniy-proces-obsudyat-na-konferencii-v-moskve.html</loc>
+    <lastmod>2022-01-20T08:56:50+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://quality-edu.ru/anonsi/pedagogi-iz-rossii-i-stran-sng-obsudyat-vozmozhnosti-vnedreniya-ii-v-obrazovanie.html</loc>
+    <lastmod>2022-01-20T08:56:48+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
     <loc>https://quality-edu.ru/novosti/bolee-treti-rossiyskih-uciteley-ocenili-svoi-znania-cifrovyh-tehnologiy-na-troyku.html</loc>
     <lastmod>2022-01-20T08:56:52+00:00</lastmod>
     <priority>0.80</priority>
@@ -38,21 +52,6 @@
   <url>
     <loc>https://quality-edu.ru/novosti/minprosvescheniya-i-mincifri-opredelili-kak-sleduet-osnaschat-shkoli-uchastvuyuschie-v-eksperimentalnom-vnedrenii-cos.html</loc>
     <lastmod>2022-01-20T08:56:53+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://quality-edu.ru/anonsi/rosiyskiye-pedagogi-podelyatsya-opitom-ispolzovaniya-ii.html</loc>
-    <lastmod>2022-01-20T08:56:49+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://quality-edu.ru/anonsi/vozmozhnosti-vnedreniya-ii-v-obrazovatelniy-proces-obsudyat-na-konferencii-v-moskve.html</loc>
-    <lastmod>2022-01-20T08:56:50+00:00</lastmod>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://quality-edu.ru/anonsi/pedagogi-iz-rossii-i-stran-sng-obsudyat-vozmozhnosti-vnedreniya-ii-v-obrazovanie.html</loc>
-    <lastmod>2022-01-20T08:56:48+00:00</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
