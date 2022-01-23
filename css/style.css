@@ -21,6 +21,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 body {
+  min-width: 320px;
   margin: 0;
   font-family: Roboto, Arial, "Helvetica Neue", "Noto Sans", sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
@@ -6378,6 +6379,7 @@ button.close {
   width: 1px;
   height: 1px;
   margin: -1px;
+  font-size: 0;
 }
 
 .entertainment .block-img {
